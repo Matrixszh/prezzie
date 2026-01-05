@@ -49,7 +49,7 @@ const Footer = () => {
             {/* Copyright in the center */}
             <div className="flex-grow text-center">
               <span className="uppercase text-black tracking-[0.3em] font-medium font-Jost text-sm sm:text-base">
-               <span className="text-blue-800 font-Jost">© elite </span>spaces
+               <span className="text-blue-800 font-Jost">© PRE</span>ZZIE
               </span>
             </div>
 
