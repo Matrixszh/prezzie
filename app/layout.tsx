@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "PREZZIE",
     images: [
       {
-        url: "https://prezzie.vercel.app/logo.png", // Updated path to images folder
+        url: "https://prezzie.vercel.app/_next/static/media/logo.ce3d89d9.png", // Updated path to images folder
         width: 1200,
         height: 630,
         alt: "PREZZIE",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "PREZZIE",
-    images: ["https://prezzie.vercel.app/logo.png"], // Updated path to images folder
+    images: ["https://prezzie.vercel.app/_next/static/media/logo.ce3d89d9.png"], // Updated path to images folder
   },
 };
 
