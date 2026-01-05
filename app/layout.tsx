@@ -2,25 +2,25 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://elitespaces.org/"),
+  metadataBase: new URL("https://prezzie.vercel.app/"),
   title: "PREZZIE",
   openGraph: {
     title: "PREZZIE",
     images: [
       {
-        url: "https://elitespaces.org/images/logom.png", // Updated path to images folder
+        url: "https://prezzie.vercel.app/logo.png", // Updated path to images folder
         width: 1200,
         height: 630,
         alt: "PREZZIE",
       },
     ],
     type: "website",
-    url: "https://elitespaces.org/",
+    url: "https://prezzie.vercel.app/",
   },
   twitter: {
     card: "summary_large_image",
     title: "PREZZIE",
-    images: ["https://elitespaces.org/images/logom.png"], // Updated path to images folder
+    images: ["https://prezzie.vercel.app/logo.png"], // Updated path to images folder
   },
 };
 
