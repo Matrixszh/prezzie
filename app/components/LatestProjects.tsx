@@ -14,10 +14,10 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { name: "Health Care", image: img1 },
-  { name: "Hospitality", image: img2 },
-  { name: "Minimalistic Bathroom", image: img3 },
-  { name: "Modest Alley", image: img4 },
+  { name: "Hotels", image: img1 },
+  { name: "Hospitals", image: img2 },
+  { name: "Restaurants", image: img3 },
+  { name: "Labs", image: img4 },
 ];
 
 const LatestProjects: React.FC = () => {
@@ -53,17 +53,17 @@ const LatestProjects: React.FC = () => {
     <section id="#" className="py-16 px-5 sm:px-10 lg:px-20 text-center">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl text-blue-800 sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-          Design Excellence
+          Industries We
           </h1>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
-          Unveiled
+          Cater To
           </h1>
         
 
         <div className="flex justify-center items-center gap-3 my-4">
           <div className="w-1/4 h-px border-t border-gray-600" />
           <p className="text-gray-600 font-Jost text-sm sm:text-base uppercase tracking-wider">
-            Projects
+            Industries
           </p>
           <div className="w-1/4 h-px border-t border-gray-600" />
         </div>

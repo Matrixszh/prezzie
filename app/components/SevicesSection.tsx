@@ -62,14 +62,14 @@ const ServicesSection = () => {
         <div className="flex justify-center items-center gap-3 my-4">
           <div className="w-1/4 h-px border-t border-gray-600" />
           <p className="text-gray-600 font-Jost text-sm sm:text-base uppercase tracking-wider">
-            Services
+            Kits
           </p>
           <div className="w-1/4 h-px border-t border-gray-600" />
         </div>
 
         {/* Paragraph */}
         <p className="text-gray-600 font-Jost text-sm sm:text-lg md:text-xl mt-2 mb-10 mx-auto max-w-3xl">
-        Our services offer tailored residential and commercial design, expert consultation, and full project management to bring your vision to life with ease.
+        We provides premium, department-specific amenity kits that bridge the gap between clinical care and personal comfort.
         </p>
 
         {/* Button */}
