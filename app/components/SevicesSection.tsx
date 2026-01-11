@@ -8,10 +8,10 @@ import kitchen from '@/public/images/elite14.jpg';
 import { motion, useInView } from 'framer-motion';
 
 const services = [
-  { name: 'Kitchen Remodelling', description: 'Kitchen design & décor services. ', image: kitchen },
-  { name: 'Bathroom Remodelling', description: 'Design, Acessories and Lighting.', image: bath },
-  { name: 'Consultation', description: 'Expert design advice & guidance.', image: consultation },
-  { name: 'Renovations', description: 'Design coordination & execution.', image: renovation },
+  { name: 'Standard Kits', description: 'Hygiene, hydration, and overcoming the "clinical" environment', image: kitchen },
+  { name: 'Custom Kits', description: 'Rest Better, Heal Faster', image: bath },
+  { name: 'Maternity Kits', description: 'The First Step in Self-Care', image: consultation },
+  { name: 'Premmium Kits', description: 'The Comforts of Home', image: renovation },
 ];
 
 const ServicesSection = () => {

@@ -14,7 +14,6 @@ export default function Home() {
     <HomeSlider />
     <About />
     <ServicesSection />
-    <Showcase />
     <LatestProjects />
     <Contact />
     <Footer />
