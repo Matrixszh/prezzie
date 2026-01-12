@@ -70,8 +70,8 @@ const LatestProjects: React.FC = () => {
 
         <p className="text-gray-600 font-Jost text-sm sm:text-lg md:text-xl mt-2 mb-10 mx-auto max-w-3xl">
           Transforming Visions into Stunning Realities. Experience the
-          innovation, creativity, and craftsmanship that define our approach to
-          exceptional interior design.
+          innovation, creativity, and packaging that define our approach to
+          exceptional deliverables.
         </p>
 
         {/* Button */}
