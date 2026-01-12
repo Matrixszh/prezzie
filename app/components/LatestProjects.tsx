@@ -3,10 +3,10 @@ import React, { useState, useEffect, useCallback } from "react";
 import Image, { StaticImageData } from "next/image";
 import { ChevronUp, ChevronDown } from "lucide-react";
 
-import img1 from "@/public/images/elite6.jpg";
-import img2 from "@/public/images/elite10.jpg";
-import img3 from "@/public/images/elite15.jpg";
-import img4 from "@/public/images/elite11.jpg";
+import img1 from "@/public/images/hotel.jpg";
+import img2 from "@/public/images/hosp.jpg";
+import img3 from "@/public/images/rest.jpg";
+import img4 from "@/public/images/lab.jpg";
 
 interface Project {
   name: string;

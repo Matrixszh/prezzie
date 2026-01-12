@@ -1,17 +1,17 @@
 'use client';
 import React, { useState, useRef } from 'react';
 import Image from 'next/image';
-import bath from '@/public/images/elite9.jpg';
-import renovation from '@/public/images/elite6.jpg';
-import consultation from '@/public/images/elite11.jpg';
-import kitchen from '@/public/images/elite14.jpg';
+import bath from '@/public/images/Standardkit.png';
+import comingsoon from '@/public/images/pexels-vie-studio-4439444.jpg';
+import premkit from '@/public/images/premiumkits.jpg';
+import kit from '@/public/images/kit3.jpeg';
 import { motion, useInView } from 'framer-motion';
 
 const services = [
-  { name: 'Standard Kits', description: 'Hygiene, hydration, and overcoming the "clinical" environment', image: kitchen },
+  { name: 'Standard Kits', description: 'Hygiene, hydration, and overcoming the "clinical" environment', image: kit },
   { name: 'Custom Kits', description: 'Rest Better, Heal Faster', image: bath },
-  { name: 'Maternity Kits', description: 'The First Step in Self-Care', image: consultation },
-  { name: 'Premmium Kits', description: 'The Comforts of Home', image: renovation },
+  { name: 'Maternity Kits', description: 'The First Step in Self-Care', image: comingsoon },
+  { name: 'Premmium Kits', description: 'The Comforts of Home', image: premkit },
 ];
 
 const ServicesSection = () => {
