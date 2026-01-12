@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import HomeSlider from "./components/HomeSlider";
 import LatestProjects from "./components/LatestProjects";
 import ServicesSection from "./components/SevicesSection";
-import Showcase from "./components/Showcase";
 
 export default function Home() {
   return (
