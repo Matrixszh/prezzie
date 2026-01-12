@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import logo from "@/public/images/logo.png";
-import { Instagram } from "lucide-react";
-import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -55,12 +53,7 @@ const Footer = () => {
 
             {/* Social Icons on the right */}
             <div className="flex space-x-4 flex-shrink-0">
-              <a href="https://www.facebook.com/eliteonepro/" target="_blank" rel="noopener noreferrer" className="hover:text-black text-blue-800 transition-colors duration-300">
-                <FaFacebook size={20} />
-              </a>
-              <a href="https://www.instagram.com/alexclosingchicago?igsh=MWJ4bnpranEydjJjbg==" target="_blank" rel="noopener noreferrer" className="hover:text-black text-blue-800 transition-colors duration-300">
-                <Instagram size={20} />
-              </a>
+             
             </div>
           </div>
         </div>
