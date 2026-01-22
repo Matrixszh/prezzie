@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import Confetti from "react-confetti";
 import { Typewriter } from "react-simple-typewriter";
 
@@ -46,11 +46,17 @@ const Contact = () => {
 
   // Handle form submission
   const onSubmit: SubmitHandler<FormData> = (data) => {
+    console.log("Submitting form with data:", data);
+    console.log("Service ID:", service);
+    console.log("Template ID:", template);
+    console.log("Public Key:", key);
+
     if (service && template && key) {
       setLoading(true);
       emailjs
         .send(service, template, data, key)
-        .then(() => {
+        .then((result) => {
+          console.log("EmailJS Success:", result.text);
           setLoading(false);
           reset();
           setShowConfetti(true);
@@ -62,9 +68,14 @@ const Contact = () => {
         .catch((error) => {
           setLoading(false);
           console.error("FAILED...", error);
-          toast.error("Form Submission Failed!");
+          if (error.text) {
+             toast.error(`Failed: ${error.text}`);
+          } else {
+             toast.error("Form Submission Failed! Check console for details.");
+          }
         });
     } else {
+      console.error("Missing environment variables");
       toast.error("Service or API keys are missing!");
     }
   };
