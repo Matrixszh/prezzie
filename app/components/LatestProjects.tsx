@@ -3,9 +3,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import Image, { StaticImageData } from "next/image";
 import { ChevronUp, ChevronDown } from "lucide-react";
 
-import img1 from "@/public/images/hotel.jpg";
 import img2 from "@/public/images/hosp.jpg";
-import img3 from "@/public/images/rest.jpg";
+import img3 from "@/public/images/dclinic.jpg";
 import img4 from "@/public/images/lab.jpg";
 
 interface Project {
@@ -14,9 +13,8 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { name: "Hotels", image: img1 },
   { name: "Hospitals", image: img2 },
-  { name: "Restaurants", image: img3 },
+  { name: "Dental Clinics", image: img3 },
   { name: "Labs", image: img4 },
 ];
 

@@ -3,9 +3,9 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import img1 from "@/public/images/kit1.jpeg";
-import img2 from "@/public/images/kit2.jpeg";
+import img2 from "@/public/images/prezzie1.jpeg";
 import img3 from "@/public/images/kit3.jpeg";
-import img4 from "@/public/images/kit3.jpeg";
+import img4 from "@/public/images/prezzie4.jpeg";
 
 const About = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

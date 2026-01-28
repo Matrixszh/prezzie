@@ -4,8 +4,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
-import img1 from "@/public/images/prezzie1.jpg";
-import img2 from "@/public/images/prezzie2.jpg";
+import img1 from "@/public/images/prezzie3.jpeg";
+import img2 from "@/public/images/prezzie4.jpeg";
 import img3 from "@/public/images/prezzie3.jpg";
 
 const images = [
